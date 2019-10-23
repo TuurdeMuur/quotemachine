@@ -18,21 +18,21 @@
       "id": 3,
       "quote": "No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.",
       "author": "Donald Trump",
-      "img": "src/assets/img/donald",
+      "img": "src/assets/img/donaldtrump",
       "date": "23/10/2019"
     },
     {
       "id": 4,
-      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-      "author": "Albert Einstein",
-      "img": "src/assets/img/einstein",
+      "quote": "The people who are crazy enough to think they can change the world are the ones who do.",
+      "author": "Steve Jobs",
+      "img": "src/assets/img/steve",
       "date": "23/10/2019"
     },
     {
       "id": 5,
-      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-      "author": "Albert Einstein",
-      "img": "src/assets/img/einstein",
+      "quote": "Wij maken uw keuken",
+      "author": "Donald Muylle",
+      "img": "src/assets/img/donald",
       "date": "23/10/2019"
     }
   ]
