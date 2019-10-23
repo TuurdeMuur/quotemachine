@@ -2,7 +2,7 @@ import './style.css';
 import { devineLog } from './js/utility/helpers';
 import data from './assets/data/quotes.json';
 let quoteData = data.quotes;
-let newQuotes = [];
+let newQuotes= '';
 
 devineLog('Hey, ik ben een JS file');
 const arr = [1, 2, 3];
@@ -13,17 +13,16 @@ ES6Stuff();
 const init = () => {
   console.log(quoteData);
   const $button = document.querySelector('.div__button');
-  $button.addEventListener('click', addQuote);
+  $button.addEventListener('click', function(){
+    const $getQuote = document.querySelector('.div__input').value;
+    if ($getQuote !== '' || $getQuote !== null) {
+      newQuotes = $getQuote;
+      showNewQuotes();
+    }
+  });
   showQuotes();
 };
 
-const addQuote = () => {
-  const $getQuote = document.querySelector('.div__input').value;
-  if ($getQuote !== null) {
-    newQuotes['quote'] = $getQuote;
-  }
-  console.log(newQuotes);
-};
 
 const showQuotes = () => {
   const $ul = document.querySelector('.list__quote');
@@ -35,5 +34,15 @@ const showQuotes = () => {
     $ul.appendChild($li);
   });
 };
+
+const showNewQuotes = () => {
+  const $ul = document.querySelector('.list__quote');
+  if (newQuotes !== '' || newQuotes !== null){
+    const $li = document.createElement('li');
+    $li.innerHTML += `${newQuotes}`;
+    $li.classList.add('quote__text');
+    $ul.appendChild($li);
+  }
+}
 
 init();
