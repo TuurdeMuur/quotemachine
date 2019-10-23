@@ -14,14 +14,26 @@ const init = () => {
   console.log(quoteData);
   const $button = document.querySelector('.div__button');
   $button.addEventListener('click', addQuote);
+  showQuotes();
 };
 
 const addQuote = () => {
   const $getQuote = document.querySelector('.div__input').value;
-  if ($getQuote !== null){
+  if ($getQuote !== null) {
     newQuotes['quote'] = $getQuote;
   }
   console.log(newQuotes);
+};
+
+const showQuotes = () => {
+  const $ul = document.querySelector('.list__quote');
+  //create li
+  quoteData.forEach(quote => {
+    const $li = document.createElement('li');
+    $li.innerHTML += `${quote.quote}<span class="quote__text--author"> -${quote.author}</span>`;
+    $li.classList.add('quote__text');
+    $ul.appendChild($li);
+  });
 };
 
 init();
