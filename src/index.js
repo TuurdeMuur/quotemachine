@@ -29,7 +29,7 @@ const showQuotes = () => {
   //create li
   quoteData.forEach(quote => {
     const $li = document.createElement('li');
-    $li.innerHTML += `${quote.quote}<span class="quote__text--author"> -${quote.author}</span>`;
+    $li.innerHTML += `${quote.quote}<span class="quote__text--author"> -${quote.author} '${quote.date}'</span>`;
     $li.classList.add('quote__text');
     $ul.appendChild($li);
   });
