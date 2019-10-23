@@ -28,17 +28,23 @@ body {
 
 .header__title {
   font-size: 12rem;
+  color: #e87b58;
 }
 
 .top {
   display: flex;
   margin-top: 4rem;
+  color: #ff926e;
+  padding: 2rem;
 }
 
 .top__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: solid #ff926e ;
+  margin-left: 2rem;
+  padding-top: 2rem;
 }
 
 .wrapper__title {
@@ -48,20 +54,27 @@ body {
 .wrapper__quote {
   margin: 3rem 3rem 0 3rem;
   font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.wrapper__quote--author {
+  display: block;
+  margin-top: 2rem;
 }
 
 .list {
   margin-top: 3rem;
-  align-self: flex-start;
-  margin-left: 10rem;
 }
 
 .list__title {
   font-size: 3.5rem;
+  color: #e87b58;
 }
 
 .list__quote {
   margin-top: 3rem;
+  color: #ff926e;
 }
 
 .quote__text {
@@ -72,6 +85,4 @@ body {
 
 .add {
   margin-top: 3rem;
-  align-self: flex-start;
-  margin-left: 10rem;
 }
