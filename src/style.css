@@ -85,4 +85,25 @@ body {
 
 .add {
   margin-top: 3rem;
+  align-self: flex-start;
+  margin-left: 34rem;
+}
+
+.add__title {
+  font-size: 3.5rem;
+  color: #e87b58;
+}
+
+.add__div {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.div__button {
+  color: #ff926e;
+  width: 10rem;
+}
+
+.div__input {
+  width: 30rem;
 }
