@@ -1,0 +1,39 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "author": "Albert Einstein",
+      "img": "src/assets/img/einstein",
+      "date": "23/10/2019"
+    },
+    {
+      "id": 2,
+      "quote": "There is no way around hard work.",
+      "author": "Roger Federer",
+      "img": "src/assets/img/rogerfederer",
+      "date": "23/10/2019"
+    },
+    {
+      "id": 3,
+      "quote": "No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.",
+      "author": "Donald Trump",
+      "img": "src/assets/img/donald",
+      "date": "23/10/2019"
+    },
+    {
+      "id": 4,
+      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "author": "Albert Einstein",
+      "img": "src/assets/img/einstein",
+      "date": "23/10/2019"
+    },
+    {
+      "id": 5,
+      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "author": "Albert Einstein",
+      "img": "src/assets/img/einstein",
+      "date": "23/10/2019"
+    }
+  ]
+}
